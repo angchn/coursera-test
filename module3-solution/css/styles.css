@@ -7,20 +7,30 @@ body {
 
 /** NAVBAR **/
 #header-nav {
-    border-radius: 0;
-    border: 0;
     background: grey;
 }
 
 .container .navbar-header a {
     font-size: 2em;
     color: black;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .container .navbar-header a::after, .container .navbar-header a:hover {
     color: black;
+}
+
+.nav-item {
+    border-bottom: 1px solid black;
+}
+
+.nav-item:nth-child(3) {
+    border-bottom: 0px;
+}
+
+.active {
+    font-weight: bold;
 }
 
 /** END NAVBAR **/
